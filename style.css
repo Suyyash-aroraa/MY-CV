@@ -1,109 +1,31 @@
-body {
-    margin-left: 8.333333333333%;
-    margin-right: 8.333333333333%;
-}
-body{
-    background-color: #023047;
-}
-.navbar{
-    padding: 0;
+body, HTML{
+    background: linear-gradient(#023047,#023047);
 }
 
-h1{
-    font-size: 24px;
+.fs-4 {
+    font-family: Arial, Helvetica, sans-serif;
     color: #FB8500;
+    font-weight: bolder;
 }
 
-.nav-link{
-    color: whitesmoke;
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
 }
 
-#nav-link-items {
-    color: whitesmoke;
-    font-size: 20px;
+.full-stack{
+    color: white;
 }
 
-.navbar-toggler{
-    background-color: aliceblue;
-    opacity: 60%;
+.text{
+    color: white;
 }
 
-.grid-container {
-    display: grid;
-    height: 80vh;
-    grid-template-columns: repeat(2, 50%);
-    gap: 15px;
-    
+.skill-img{
+    height: 40px;
 }
 
-.main-text{
-    color: whitesmoke;
-    align-self: center;
-}
-
-h2{
-    font-size: 54px;
-}
-
-.main-img{
-    width: 80vh;
-    height: 85vh;
-    background-image: linear-gradient(30deg, rgba(205,117,14,85%), rgba(255,0,0,0));
-    border-radius: 50% 0  0 50%;
-    position: absolute;
-    right: 0;
-}
-
-img{
-    width: 70%;
-    position: absolute;
-    right: 8.33333333333%;
-    bottom: 10%;
-    object-fit: scale-down;
-}
-
-@media (max-width:810px) AND (min-width:701px){
-    img{
-        width: 60%;
-        bottom: 20%;
-    }
-    .main-img{
-        width: 70vh;
-    }
-}
-
-
-@media (max-width: 700px){
-    body{
-        margin: 0;
-    }
-    .grid-container{
-        margin-top: 10vh;
-        display: flex;
-        flex-direction: column;
-
-    }
-    .main-img{
-        position: relative;
-        right: 0;
-        bottom: 0;
-        align-self: center;
-        justify-self: center;
-        border-radius: 50% 50%  0 0;
-        width: 100%;
-    }
-
-    img{ 
-        position: relative;
-        right: 0;
-        left: 0;
-        bottom: 0 ;
-        width: 50%;
-        margin-left: 30%;
-
-    }
-    .navbar{
-        margin: 0 8.333333333333% 0 8.33333333333333333%;
-    }
-
+.text-h{
+    color: #ffb703;
 }

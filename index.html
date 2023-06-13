@@ -1,45 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"> <h1>SUYYASH <br>R. ARORA</h1></a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto" style="position: absolute;
-            right: 8.33333333333%;">
-              <li class="nav-item active">
-                <a class="nav-link" href="#skills" id="nav-link-items">Skills</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#footer" id="nav-link-items">Social</a>
-              </li>
-            </ul>
-          </div>
-    </nav>
-    <div class="grid-container">
-        <div class="main-text"> <h2>FULL STACK <br> CLOUD <br> DEVELOPER</h2></div>
-        <div class="main-img"> <img src="monitor with profile icon 1.png" alt=""></div>
+<div class="container">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <span class="fs-4">SUYYASH <br> R. ARORA</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#social" class="nav-link">Social</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+    </ul>
+  </header>
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy" style="border-radius: 1rem">
     </div>
-    <div class="container-fluid" id="skills">
-        <div class=""></div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" > <span style="color: white">FULL STACK <br><span style="color: #FB8500">CLOUD</span><br> DEVELOPER</span></h1>
+    </div>
+  </div>
+  <div class="container px-4 py-5" id="icon-grid">
+    <h2 class="pb-2 border-bottom text">Skills</h2>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+      <div class="col d-flex align-items-start">
+        <img class="bi text-body-secondary flex-shrink-0 me-3" width="30em" height="30em" src="https://img.icons8.com/?size=512&id=l75OEUJkPAk4&format=png">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><span class="text-h">Python</span></h3>
+          <p class="text">Certified specialiazation by University of Michigan on coursera</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img class="bi text-body-secondary flex-shrink-0 me-3" width="30em" height="35em" src="https://img.icons8.com/?size=512&id=uHZV38hOzCFA&format=png">
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><span class="text-h" id="skills">SQL</span></h3>
+          <p class="text">Part of my school curriculum.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img class="bi text-body-secondary flex-shrink-0 me-3" width="30em" height="30em" src="https://img.icons8.com/?size=512&id=43612&format=png"/>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><span class="text-h">Cloud</span></h3>
+          <p class="text">currently studying for certfication.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img class="bi text-body-secondary flex-shrink-0 me-3" width="30em" height="35em" src="https://img.icons8.com/?size=512&id=20909&format=png" />
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><span class="text-h">HTML</span></h3>
+          <p class="text">Meta course on front end development.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img class="bi text-body-secondary flex-shrink-0 me-3" width="30em" height="35em" src="https://img.icons8.com/?size=512&id=7gdY5qNXaKC0&format=png" />
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><span class="text-h">CSS</span></h3>
+          <p class="text">Meta course on Front-end Development.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <img class="bi text-body-secondary flex-shrink-0 me-3" width="30em" height="30em" src="https://img.icons8.com/?size=512&id=53451&format=png" style="filter: invert()"/>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis"><span class="text-h">Web Scraping</span></h3>
+          <p class="text">Specialization form UMich.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <h6 class="text-h">SUYYASH <br> R. ARORA</h6>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary"><span class="text">© 2023 Company, Inc</span></span>
     </div>
 
-
-    <!-- Ignore below (JS) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/suyyash-arora/">
+        <img class="bi" width="30" height="30" src="https://img.icons8.com/?size=512&id=447&format=png" style="filter: invert()"/>
+      </a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/suyyash_aroraa/">
+        <img class="bi" width="30" height="30" src="https://img.icons8.com/?size=512&id=32292&format=png" style="filter: invert()" id="social">
+      </a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://github.com/Suyyash-aroraa">
+        <img class="bi" width="30" height="30" src="https://img.icons8.com/?size=512&id=12598&format=png" style="filter: invert()"></a></li>
+    </ul>
+  </footer>
+</div>
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+  <!-- JS END -->
 </body>
 </html>
